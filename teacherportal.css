@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+/*colors*/
+
+
+.green {
+	background-color: #63E788;
+}
+.orange {
+	background-color: #FFCC33;
+}
+.red {
+	background-color: #ff9B88;
+}
+
+.dark_red {
+	background-color: #c36354;
+}
+
+
+/*Scoring text color*/
+
+.great {
+	 color: #63e788;
+	 text-align:left; font-size:10px;
+}
+.almost {
+	 color: #ffcc33;
+	  text-align:left; font-size:10px;
+}
+.room {
+	 color: #ff9b88;
+	  text-align:left; font-size:10px;
+}
+
+.try_text{ font-size:10px; color:#676767;}
+
+
+/*SHAPES*/
+
+
+#circle {
+	width: 30px;
+	height: 30px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+#square {
+	width: 30px;
+	height: 30px;
+	border: #CCC 1px solid;
+}
+
+#scoring_bar{ 
+	width: 40px;
+	height: 6px;
+}
+
+.scoring_container{ height:20px; width:100px;}
+
+
+
+	
